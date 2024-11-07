@@ -1340,10 +1340,11 @@ section {
   padding: 20px 30px;
   position: relative;
   overflow: hidden;
-  background: #ffffff;
-  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+  background: #c4c1c1;
+  border: #f96f59;
+  box-shadow: 0 0 29px 0 rgba(83, 83, 83, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+  border-radius: 20px;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -1372,12 +1373,12 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #222222;
+  background: #939292;
 }
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-  color: #fff;
+  color: #f85a40;
 }
 
 /*--------------------------------------------------------------
